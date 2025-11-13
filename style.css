@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s;
+}
+
+.card {
+  width: 300px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6); 
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  backdrop-filter: blur(5px); 
+  transition: background-color 0.5s, color 0.3s;
+}
+
+#color-code {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#change-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
